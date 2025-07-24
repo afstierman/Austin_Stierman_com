@@ -12,7 +12,7 @@ const jobs = [
 		title: "Business Analyst Intern",
 		date: "May 2024 - April 2025",
 		description:
-			"Collaborated with stakeholders from Finance, HR, and Warehouse Management to gather requirements and execute their IT needs. Used Workday databases to collect and analyze large datasets, providing insights to improve business processes. Experience with PowerShell scipting to automate data extraction and reporting tasks.",
+			"Collaborated with stakeholders from Finance, HR, and Warehouse Management to gather requirements and execute their IT needs. Used Workday databases to collect and analyze large datasets, providing insights to improve business processes. Experience with PowerShell scripting to automate data extraction and reporting tasks.",
 	},
 	{
 		company: "University of Iowa ITS",
