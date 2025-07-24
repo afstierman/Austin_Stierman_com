@@ -28,8 +28,12 @@ export const AboutSection = () => {
                             Contact Me
                         </a>
 
-                        <a href="#contact" className ="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                            Download Resume
+                        <a
+                        href="/AustinStiermanResume.pdf"
+                        download
+                        className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                        >
+                        Download Resume
                         </a>
                     </div>
                 </div>
