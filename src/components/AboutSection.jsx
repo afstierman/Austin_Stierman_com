@@ -14,7 +14,7 @@ export const AboutSection = () => {
 
                     <p className ="text-muted-foreground">
                         I am a dedicated software engineer with internship experiences related to full stack web application development and bussiness process automation.
-                        I'm passionate about creating efficient and scalable solutions that enhance user experiences and streamline operations.
+                        I am passionate about creating efficient and scalable solutions that enhance user experiences and streamline operations.
                     </p>
 
                     <p className ="text-muted-foreground">
@@ -60,7 +60,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> UI/UX Development</h4>
                                 <p className="muted-foreground">
-                                    I'm experienced in creating intuitive and engaging user interfaces using modern frameworks like React and Tailwind CSS.
+                                    I am experienced in creating intuitive and engaging user interfaces using modern frameworks like React and Tailwind CSS.
                                 </p>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                             <h4 className="font-semibold text-lg">Academic Focus</h4>
                             <p className="muted-foreground">
-                                In school, I’ve built a strong foundation in algorithms and data structures, and I’m actively developing my expertise in operating systems and machine learning through coursework and personal projects.
+                                In school, I have built a strong foundation in algorithms and data structures, and I am actively developing my expertise in operating systems and machine learning through coursework and personal projects.
                             </p>
                             </div>
                         </div>
