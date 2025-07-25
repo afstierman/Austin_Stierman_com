@@ -19,6 +19,7 @@ const skills = [
   { name: "Git", level: 95, category: "cloud" },
   { name: "Azure DevOps", level: 85, category: "cloud" },
   { name: "Azure Storage", level: 80, category: "cloud" },
+  { name: "GitHub", level: 75, category: "cloud" },
   { name: "GitLab", level: 75, category: "cloud" },
 
   // Programming Languages
