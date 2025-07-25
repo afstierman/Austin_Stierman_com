@@ -13,7 +13,7 @@ export const AboutSection = () => {
                     <h3 className = "text-2xl font-semibold">Driven Software Engineer and Student</h3>
 
                     <p className ="text-muted-foreground">
-                        I am a dedicated software engineer with internship experiences related to full stack web application development and bussiness process automation.
+                        I am a dedicated software engineer with internship experiences related to full stack web application development and business process automation.
                         I am passionate about creating efficient and scalable solutions that enhance user experiences and streamline operations.
                     </p>
 
