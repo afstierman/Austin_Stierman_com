@@ -60,7 +60,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> UI/UX Development</h4>
                                 <p className="muted-foreground">
-                                    I am experienced in creating intuitive and engaging user interfaces using modern frameworks like React and Tailwind CSS.
+                                    I have experience in creating intuitive and engaging user interfaces using modern frameworks like React and Tailwind CSS.
                                 </p>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                             <h4 className="font-semibold text-lg">Academic Focus</h4>
                             <p className="muted-foreground">
-                                In school, I have built a strong foundation in algorithms and data structures, and I am actively developing my expertise in operating systems and machine learning through coursework and personal projects.
+                                I have built a strong foundation in algorithms and data structures, and I am actively developing my expertise in operating systems and machine learning through coursework and personal projects.
                             </p>
                             </div>
                         </div>
