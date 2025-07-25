@@ -4,14 +4,14 @@ export const HeroSection = () => {
     return(
     <section 
         id="hero"
-        className="relative min-h-screen flex flex-col items-center justify-center px-4"
+        className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-24"
     >
         <img 
             src="/projects/AustinPhoto.jpg" 
             alt="Austin Stierman" 
             className="w-70 h-70 md:w-100 md:h-100 rounded-full object-cover shadow-lg border-4 border-primary mb-8 mt-8" 
         />
-        <div className ="container max-w-4xl mx-auto text-center z-10">
+        <div className ="container max-w-4xl mx-auto text-center z-10 pb-24">
             <div className = "space-y-6">
                 <h1 className = "text-4xl md:text-6xl font-bold tracking-tight">
                     <span className="opacity-0 animate-fade-in"> Hello, I'm</span>
@@ -29,7 +29,7 @@ export const HeroSection = () => {
                 </div>*/}
             </div>
         </div>
-        <div className = "absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+        <div className = "absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce z-20">
             <span className = "text-sm text-muted-foreground mb-2">
                 Scroll
             </span>
