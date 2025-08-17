@@ -3,30 +3,19 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Project One",
-        description: "A brief description of Project One.",
-        image: "/projects/project10.jpg",
-        tags: ["React", "JavaScript", "CSS"],
-        demoURL: "#",
-        githubURL: "#",
+        title: "Austin Stierman Portfolio Website",
+        description: "This website, which you are currently viewing, was built with React, TypeScript, and CSS to provide a responsive, interactive, and user-friendly experience across devices. It serves as a central platform to highlight my technical skills, showcase projects I have developed, and share my professional journey in software development. Reach out to me below!",
+        image: "/projects/PersonalWebsite.jpg",
+        tags: ["React", "TypeScript", "Tailwind CSS"],
+        githubURL: "https://github.com/afstierman/Austin_Stierman_com",
     },
     {
         id: 2,
-        title: "Project Two",
-        description: "A brief description of Project One.",
-        image: "/projects/project2.jpg",
-        tags: ["React", "JavaScript", "CSS"],
-        demoURL: "#",
-        githubURL: "#",
-    },
-    {
-        id: 3,
-        title: "Project Three",
-        description: "A brief description of Project One.",
-        image: "/projects/project3.jpg",
-        tags: ["React", "JavaScript", "CSS"],
-        demoURL: "#",
-        githubURL: "#",
+        title: "Task Manager Mobile",
+        description: "Developed a cross-platform mobile application that simplifies task and project management. The app enables users to create, update, and delete tasks, set deadline reminders, and stay organized with ease. Built with a React Native frontend (Expo Go) and a Node.js + MongoDB backend, hosted on Render for seamless deployment, scalability, and reliable data management.",
+        image: "/projects/TaskManager.png",
+        tags: ["React Native", "TypeScript", "Node.js", "MongoDB", "Render"],
+        githubURL: "https://github.com/afstierman/TaskManagerMobile",
     },
 ]
 
@@ -37,11 +26,10 @@ export const ProjectsSection = () => {
                 <h2 className = "text-3xl md:text-4xl font-bold mb-4 text-center"> Featured <span className = "text-primary"> Projects </span></h2>
             
                 <p className = "text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects that showcase my skills and creativity. 
-                    Click on the project titles to learn more.
+                    These recent projects highlight my experience and the value I bring through innovative solutions.
                 </p>
 
-                <div className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projects.map((project, key) => (
                         <div key={key} className = "group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                             
@@ -65,12 +53,6 @@ export const ProjectsSection = () => {
                                 <p className ="text-muted-foreground text-sm mb-4">{project.description}</p>
                                 <div className = "flex justify-between items-center">
                                     <div className = "flex space-x-3">
-                                        <a  href={project.demoURL}
-                                            target = "_blank"
-                                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                        >
-                                            <ExternalLink size={20}/>
-                                        </a>
                                         <a  href={project.githubURL} 
                                             target = "_blank"
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"

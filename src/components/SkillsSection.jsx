@@ -10,10 +10,10 @@ const skills = [
   { name: "TailWind", level: 70, category: "frontend" },
 
   // Backend & APIs
-  { name: ".NET (C#)", level: 85, category: "backend" },
   { name: "SQL", level: 75, category: "backend" },
   { name: "Azure Functions", level: 70, category: "backend" },
   { name: "API Integration (REST)", level: 70, category: "backend" },
+  { name: "MongoDB", level: 70, category: "backend" },
 
   // Cloud & Infrastructure
   { name: "Git", level: 95, category: "cloud" },
@@ -21,6 +21,7 @@ const skills = [
   { name: "Azure Storage", level: 80, category: "cloud" },
   { name: "GitHub", level: 75, category: "cloud" },
   { name: "GitLab", level: 75, category: "cloud" },
+  { name: "Render", level: 70, category: "cloud" },
 
   // Programming Languages
   { name: "C#", level: 90, category: "languages" },
