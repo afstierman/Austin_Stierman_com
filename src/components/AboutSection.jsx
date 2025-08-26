@@ -73,7 +73,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                             <h4 className="font-semibold text-lg">Academic Focus</h4>
                             <p className="muted-foreground">
-                                I have built a strong foundation in algorithms and data structures, and I am actively developing my expertise in operating systems and machine learning through coursework and personal projects.
+                                I have built a strong foundation in algorithms and data structures, and I am actively developing my expertise in operating systems and software engineering through coursework and personal projects.
                             </p>
                             </div>
                         </div>
