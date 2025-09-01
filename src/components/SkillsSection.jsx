@@ -26,18 +26,19 @@ const skills = [
   // Programming Languages
   { name: "C#", level: 90, category: "languages" },
   { name: "Java", level: 90, category: "languages" },
-  { name: "Python", level: 75, category: "languages" },
+  { name: "Python", level: 80, category: "languages" },
   { name: "C", level: 75, category: "languages" },
   { name: "C++", level: 65, category: "languages" },
-  { name: "x86 Assembly", level: 65, category: "languages" },
   { name: "PowerShell", level: 65, category: "languages" },
 
   // Data & Tools
   { name: "PL/SQL", level: 75, category: "tools" },
   { name: "Excel (Advanced)", level: 75, category: "tools" },
   { name: "Postman", level: 75, category: "tools" },
-  { name: "Geospatial Data (Shapefiles)", level: 70, category: "tools" },
+  { name: "Geospatial Data (Shapefiles/Other)", level: 70, category: "tools" },
+  { name: "Docker", level: 65, category: "tools" },
   { name: "Power BI", level: 60, category: "tools" },
+
 
 
 ];
